@@ -64,12 +64,12 @@ li{
 	color: #fff;
 }
 .skills{
-	width: 996px;
+	max-width: 996px;
 	margin: 0 auto;
 	padding-bottom: 16px;
 }
 .skill-content{
-	width: 690px;
+	max-width: 690px;
 	margin: 0 auto;
 	padding-left: 24px;
 	border-left: 1px solid #fff;
@@ -84,16 +84,68 @@ li{
 	color: #fff;
 }
 .habits{
-	width: 996px;
+	max-width: 996px;
 	margin: 0 auto;
 	padding-bottom: 16px;
 }
 .habit-content{
-	width: 690px;
+	max-width: 690px;
 	margin: 0 auto;
 	padding-left: 24px;
 	border-left: 1px solid #fff;
 }
 .habit-content li{
 	margin-bottom: 20px;
+}
+
+.UlRwd{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.UlRwd li{
+	width: 100%;
+	margin-bottom: 24px;
+}
+.imgRwd{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 36%;
+}
+@media (max-width:768px) {
+	.skills{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.skill-content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.habits{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.habit-content{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media (max-width:375px) {
+	.skills{
+		width: 51%;
+		margin: 0 auto;
+	}
+	.skill-content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.habits{
+		width: 51%;
+		margin: 0 auto;
+	}
+	.habit-content{
+		width: 100%;
+		margin: 0 auto;
+	}
 }
